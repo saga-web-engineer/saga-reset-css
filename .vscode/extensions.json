@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "streetsidesoftware.code-spell-checker",
+    "editorconfig.editorconfig",
+    "saikou9901.evilinspector",
+    "tombonnike.vscode-status-bar-format-toggle",
+    "oderwat.indent-rainbow",
+    "esbenp.prettier-vscode",
+    "stylelint.vscode-stylelint"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "saga-reset-css",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format": "biome check --write ./"
+  },
+  "volta": {
+    "node": "22.11.0",
+    "npm": "10.9.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.0.4"
+  }
+}

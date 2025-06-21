@@ -1,0 +1,120 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  min-inline-size: 0;
+  padding: unset;
+  margin: unset;
+}
+
+:where(
+    :any-link,
+    button:not([disabled]),
+    [type="button"]:not([disabled]),
+    [type="reset"]:not([disabled]),
+    [type="submit"]:not([disabled]),
+    label[for],
+    select,
+    summary,
+    [role="tab"],
+    [role="button"]
+  ) {
+  cursor: pointer;
+}
+
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea,
+[tabindex] {
+  touch-action: manipulation;
+}
+
+input,
+button,
+textarea,
+select,
+pre,
+address {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+textarea {
+  field-sizing: content;
+  resize: none;
+}
+
+fieldset {
+  min-width: 0;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+
+ul:where([class]),
+ol:where([class]),
+summary {
+  list-style-type: "";
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+button {
+  appearance: none;
+  border: none;
+}
+
+a {
+  color: inherit;
+}
+
+a:where([class]) {
+  text-decoration: underline;
+}
+
+:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    background-attachment: initial !important;
+    transition-delay: 0s !important;
+    transition-duration: 1ms !important;
+    animation-duration: 1ms !important;
+    animation-delay: -1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :focus {
+    transition: outline-offset 0.25s ease;
+  }
+
+  :focus:not(:active) {
+    outline-offset: 5px;
+  }
+}
