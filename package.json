@@ -26,6 +26,9 @@
     "url": "https://github.com/saga-web-engineer/saga-reset-css/issues"
   },
   "homepage": "https://github.com/saga-web-engineer/saga-reset-css#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "format": "biome check --write ./"
   },
