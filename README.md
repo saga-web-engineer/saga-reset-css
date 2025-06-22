@@ -2,7 +2,7 @@
 
 A CSS reset library for building static websites without UI frameworks.
 
-これは私流のリセットCSSで、UIフレームワークを使わずにCSSを書いて静的なWebサイトを作るような用途で使用することを想定しています。
+This is my personal CSS reset library, designed for use when writing CSS without UI frameworks to create static websites.
 
 ## Installation
 
@@ -10,20 +10,36 @@ A CSS reset library for building static websites without UI frameworks.
 npm install @s.a.g.a/reset-css
 ```
 
+**Windows PowerShell:**
+```powershell
+npm install "@s.a.g.a/reset-css"
+```
+
 ## Usage
 
-### CSS/SCSS で使用する場合
+### Using with CSS/SCSS
 
+**With @import:**
 ```css
 @import "@s.a.g.a/reset-css";
 
-/* あなたのスタイルをここに記述 */
+/* Write your styles here */
 .your-styles {
   /* ... */
 }
 ```
 
-### JavaScript/TypeScript で使用する場合
+**With Dart Sass (@use):**
+```scss
+@use "@s.a.g.a/reset-css";
+
+/* Write your styles here */
+.your-styles {
+  /* ... */
+}
+```
+
+### Using with JavaScript/TypeScript
 
 ```javascript
 import "@s.a.g.a/reset-css";
@@ -31,11 +47,11 @@ import "@s.a.g.a/reset-css";
 
 ## Contributing
 
-バグ報告や機能要望は [Issues](https://github.com/saga-web-engineer/saga-reset-css/issues) にてお気軽にどうぞ。
+Bug reports and feature requests are welcome! Please feel free to open an issue on [Issues](https://github.com/saga-web-engineer/saga-reset-css/issues).
 
 ## License
 
-MIT License - 詳細は [LICENSE](LICENSE) ファイルをご覧ください。
+MIT License - See [LICENSE](LICENSE) file for details.
 
 ## Author
 
