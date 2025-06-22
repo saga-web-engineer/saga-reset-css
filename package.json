@@ -1,5 +1,5 @@
 {
-  "name": "@saga/reset-css",
+  "name": "@s.a.g.a/reset-css",
   "version": "0.0.0",
   "description": "A CSS reset library for building static websites without UI frameworks",
   "main": "index.css",

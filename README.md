@@ -1,4 +1,4 @@
-# @saga/reset-css
+# @s.a.g.a/reset-css
 
 A CSS reset library for building static websites without UI frameworks.
 
@@ -7,7 +7,7 @@ A CSS reset library for building static websites without UI frameworks.
 ## Installation
 
 ```bash
-npm install @saga/reset-css
+npm install @s.a.g.a/reset-css
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install @saga/reset-css
 ### CSS/SCSS で使用する場合
 
 ```css
-@import "@saga/reset-css";
+@import "@s.a.g.a/reset-css";
 
 /* あなたのスタイルをここに記述 */
 .your-styles {
@@ -26,7 +26,7 @@ npm install @saga/reset-css
 ### JavaScript/TypeScript で使用する場合
 
 ```javascript
-import "@saga/reset-css";
+import "@s.a.g.a/reset-css";
 ```
 
 ## Contributing
