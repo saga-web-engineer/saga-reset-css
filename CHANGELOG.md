@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.0.1] - 2025-06-23
+
+### Changed
+- Updated README.md to English documentation
+- Added Windows PowerShell installation instructions
+- Added Dart Sass (@use) usage example alongside @import
+
 ## [0.0.0] - 2025-06-23
 
 ### Added
