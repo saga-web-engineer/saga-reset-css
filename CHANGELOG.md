@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.0.0] - 2025-06-22
+## [0.0.0] - 2025-06-23
 
 ### Added
 - Initial release of @s.a.g.a/reset-css
