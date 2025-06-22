@@ -1,7 +1,31 @@
 {
-  "name": "saga-reset-css",
-  "private": true,
-  "type": "module",
+  "name": "@saga/reset-css",
+  "version": "0.0.0",
+  "description": "A CSS reset library for building static websites without UI frameworks",
+  "main": "index.css",
+  "style": "index.css",
+  "files": [
+    "index.css",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saga-web-engineer/saga-reset-css.git"
+  },
+  "keywords": [
+    "css",
+    "reset-css",
+    "saga",
+    "saga-reset-css"
+  ],
+  "author": "saga-web-engineer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saga-web-engineer/saga-reset-css/issues"
+  },
+  "homepage": "https://github.com/saga-web-engineer/saga-reset-css#readme",
   "scripts": {
     "format": "biome check --write ./"
   },
