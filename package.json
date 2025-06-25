@@ -1,6 +1,6 @@
 {
   "name": "@s.a.g.a/reset-css",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A CSS reset library for building static websites without UI frameworks",
   "main": "index.css",
   "style": "index.css",
