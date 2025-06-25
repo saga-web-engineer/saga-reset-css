@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2025-06-26
+
+### Changed
+- Added `:where()` pseudo-class to multiple selectors to reduce specificity
+- Updated dimensional properties to use logical properties (`max-inline-size`, `block-size`, `min-inline-size`)
+- Changed `border: none` to `border: unset` for consistency
+- Updated anchor link styles to use `color: unset` and `text-decoration-line: unset`
+- Removed class-specific text decoration rules for anchor links
+
 ## [0.1.0] - 2025-06-26
 
 ### Changed

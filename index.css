@@ -22,49 +22,31 @@
   cursor: pointer;
 }
 
-a,
-area,
-button,
-input,
-label,
-select,
-summary,
-textarea,
-[tabindex] {
+:where(a, area, button, input, label, select, summary, textarea, [tabindex]) {
   touch-action: manipulation;
 }
 
-input,
-button,
-textarea,
-select,
-pre,
-address {
+:where(input, button, textarea, select, pre, address) {
   font: inherit;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
+:where(img) {
+  max-inline-size: 100%;
+  block-size: auto;
   vertical-align: middle;
 }
 
-textarea {
+:where(textarea) {
   field-sizing: content;
   resize: none;
 }
 
-fieldset {
-  min-width: 0;
-  border: none;
+:where(fieldset) {
+  min-inline-size: 0;
+  border: unset;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+:where(h1, h2, h3, h4, h5, h6) {
   font-weight: 400;
 }
 
@@ -74,24 +56,21 @@ summary {
   list-style-type: "";
 }
 
-summary::-webkit-details-marker {
+:where(summary)::-webkit-details-marker {
   display: none;
 }
 
-button {
+:where(button) {
   appearance: none;
   border: none;
 }
 
-a {
-  color: inherit;
+:where(a:any-link) {
+  color: unset;
+  text-decoration-line: unset;
 }
 
-a:where(:not([class])) {
-  text-decoration: underline;
-}
-
-:focus:not(:focus-visible) {
+:where(:focus:not(:focus-visible)) {
   outline: 0;
 }
 
