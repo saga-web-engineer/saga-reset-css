@@ -87,7 +87,7 @@ a {
   color: inherit;
 }
 
-a:where([class]) {
+a:where(:not([class])) {
   text-decoration: underline;
 }
 
